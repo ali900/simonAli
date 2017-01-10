@@ -2,10 +2,9 @@ package simonAlii;
 
 import java.awt.Color;
 
-import gui.components.Action;
-import gui.components.Clickable;
+import gui6.components.Action;
 
-public interface ButtonInterfaceMichael extends Clickable {
+public interface ButtonInterface extends Clickable {
 
 	void setColor(Color color);
 

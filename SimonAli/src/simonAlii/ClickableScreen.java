@@ -12,9 +12,6 @@ import gui6.Screen;
 import gui6.components.Clickable;
 import gui6.components.Visible;
 
-
-
-
 public abstract class ClickableScreen extends Screen implements MouseListener {
 
 	private ArrayList<Clickable> clickables;
