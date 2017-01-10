@@ -1,18 +1,18 @@
 package simonAlii;
 
 import java.util.ArrayList;
+import java.util.List;
 
-import gui.components.TextLabel;
-import simonMichael.ButtonInterfaceMichael;
-import simonMichael.MoveInterfaceMichael;
-import simonMichael.ProgressInterfaceMichael;
+import gui6.components.TextLabel;
+import gui6.components.Visible;
+
 
 public class SimonScreenX extends ClickableScreen implements Runnable{
 
 	private TextLabel text;
 	private ButtonInterface[] btnList;
-	private ProgressInterface progress;
-	private ArrayList<MoveInterface> moveList;
+	private ProgressInterfaceAli progress;
+	private ArrayList<MoveInterfaceAli> moveList;
 
 	private int roundNumber;
 	private boolean acceptingInput;
@@ -39,5 +39,22 @@ public class SimonScreenX extends ClickableScreen implements Runnable{
 		changeText("Your turn");
 		sequenceIndex = 0;
 		acceptingInput=true;
+	}
+	private void playSequence() {
+		// TODO Auto-generated method stub
+		
+	}
+	private void changeText(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+	private void nextRound() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void initAllObjects(List<Visible> viewObjects) {
+		// TODO Auto-generated method stub
+		
 	}
 }
