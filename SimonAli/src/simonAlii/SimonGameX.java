@@ -10,7 +10,7 @@ public class SimonGameX extends GUIApplication {
 
 	@Override
 	public void initScreen() {
-		SimonScreenMichael sgm = new SimonScreenMichael(getWidth(),getHeight());
+		SimonScreenX sgm = new SimonScreenX(getWidth(),getHeight());
 		setScreen(sgm);
 	}
 	
