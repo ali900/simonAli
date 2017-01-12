@@ -1,4 +1,4 @@
-package simonAlii;
+package simonAli;
 
 import java.awt.Graphics2D;
 

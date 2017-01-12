@@ -1,6 +1,6 @@
-package simonAlii;
+package simonAli;
 
-import gui.components.Visible;
+import gui6.components.Visible;
 
 public interface ProgressInterfaceAli extends Visible {
 	void gameOver();
@@ -8,4 +8,7 @@ public interface ProgressInterfaceAli extends Visible {
 	void setRoundInt(int roundNumber);
 
 	void setSequenceSize(int size);
+
+	SimonScreenX get(int sequenceIndex);
+
 }

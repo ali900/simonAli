@@ -1,10 +1,11 @@
-package simonAlii;
+package simonAli;
 
 import java.awt.Color;
 
 import gui6.components.Action;
+import gui6.components.Visible;
 
-public interface ButtonInterface extends Clickable {
+public interface ButtonInterface extends Visible {
 
 	void setColor(Color color);
 
@@ -19,7 +20,8 @@ public interface ButtonInterface extends Clickable {
 	void dim();
 
 	void getButton();
-
+	
+	void setName(String name);
 
 
 }
